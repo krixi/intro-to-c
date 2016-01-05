@@ -30,7 +30,24 @@ void test(int num)
     else
     {
         printf("The number %d is ODD \n", num );
-    } 
+    }
+
+
+   switch( num )
+   {
+        case 0:
+            printf(" Zero \n");
+            break;
+        case 1:
+            printf(" One \n");
+            break;
+        case 2:
+            printf(" Two \n");
+            break;
+        default:
+           printf(" %d is not Zero, One or Two \n", num);
+           break; 
+   }
 }
 
 
