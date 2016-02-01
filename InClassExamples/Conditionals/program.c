@@ -10,6 +10,17 @@
 /* Define constants to use in this example */
 #define LIMIT 999
 
+void test_assignment(void)
+{
+    int x, y = -1;
+
+    x = ( y == 10);
+    printf("x = %d, y= %d \n", x, y);
+
+    x = ( y = 10);
+    printf("x = %d, y= %d \n", x, y);
+}
+
 
 /* Main program entry point */
 int main(void)
@@ -17,6 +28,8 @@ int main(void)
     /* Declare variables to use in this example */
     int result;
     int x = 312, y = -2, flag = 0;
+
+    test_assignment();
 
     /* First print out the variables in use */
     printf("x = %d, y = %d, flag = %d, LIMIT = %d\n\n", x, y, flag, LIMIT);
