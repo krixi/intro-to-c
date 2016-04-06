@@ -15,6 +15,6 @@ typedef struct {
 
 
 // Function prototypes
-int load_word_list( char * filename, wordlist_t * list );
-
+void load_word_list( char * filename, wordlist_t * list );
+void display_word_list( wordlist_t * list);
 
