@@ -1,0 +1,10 @@
+For this lab, you will implement a program that can output information about any element in the periodic table of elements.
+
+Requirements:
+
+Read in a comma-separated values text file that contains the information about the elements in the periodic table.
+Save those elements in a data structure for further processing.
+Accept command-line parameters:
+Program arguments shall be the chemical symbols for wish the user wants more information
+Optionally, the user may provide as the first program argument, the name of a file to write the information out to.
+Print out, or write to a file, information about the elements requested.
