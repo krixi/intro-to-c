@@ -6,15 +6,15 @@ CFLAGS=-c -Wall
 
 all: program
 
-program: Person.o driver.o
-	$(CC) Person.o driver.o -o run_me
+program: Vehicle.o main.o
+	$(CC) Vehicle.o main.o -o run_me
 
-Person.o: Person.cpp Person.hpp
-	$(CC) $(CFLAGS) Person.cpp
+Vehicle.o: Vehicle.cpp Vehicle.hpp
+	$(CC) $(CFLAGS) Vehicle.cpp
 
 
-driver.o: driver.cpp 
-	$(CC) $(CFLAGS) driver.cpp
+main.o: main.cpp 
+	$(CC) $(CFLAGS) main.cpp
 
 clean:
 	rm *.o run_me
