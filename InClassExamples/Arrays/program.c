@@ -20,6 +20,9 @@ int main(void)
     int x[SIZE];
     int y[] = { 2, 3, 7, 11, 13, 17, 19 };
     int z[SIZE];
+    char str[] = "goodbye cruel world";
+    char str2[SIZE];
+    
 
 
 

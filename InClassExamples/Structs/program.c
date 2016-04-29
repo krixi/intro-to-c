@@ -4,9 +4,13 @@
 
 #define NAME_SZ 20
 
-typedef struct {
+
+struct point {
     int x, y;
-} point_t;
+    struct point * next;
+};
+
+typedef struct point point_t;
 
 typedef struct {
     char name[NAME_SZ]; 
